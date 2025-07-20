@@ -32,13 +32,23 @@
     },
     {
       "id": "d15a",
-      "name": "SuperMan Tool Set",
+      "name": "SuperMan Tool Box",
       "category": "Hobbies & Interests",
       "description": "There is this ultimate tool box that any self proclaimed handy man could do, i have to get it",
       "targetAmount": 30000,
       "savedAmount": 8290,
       "deadline": "2025-12-27",
       "createdAt": "2025-07-20T17:10:31.113Z"
+    },
+    {
+      "id": "6e5e",
+      "name": "The good Life - Travel to japan",
+      "category": "Personal Development",
+      "description": "I've been doing meditation for 8 months now and i think i should meet some Gurus. I ear Asia is their home",
+      "targetAmount": 200000,
+      "savedAmount": 78000,
+      "deadline": "2026-07-01",
+      "createdAt": "2025-07-20T17:40:19.515Z"
     }
   ]
 }
