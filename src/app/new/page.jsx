@@ -9,7 +9,7 @@ export default function NewGoalPage() {
   const [name, setTitle] = useState("");
   const [category, setCategory] = useState("");
   const [description, setDescription] = useState("");
-  const [targetamount, setTarget] = useState("");
+  const [targetAmount, setTarget] = useState("");
   const [savedAmount, setSaved] = useState("");
   const [deadline, setDeadline] = useState("");
 
@@ -58,7 +58,7 @@ export default function NewGoalPage() {
           <select
             className="w-full border px-3 py-2 rounded"
             value={category}
-            onChange={() => setCategory(e.target.value)}
+            onChange={(e) => setCategory(e.target.value)}
             required>
             <option value="">-- Select a category --</option>
             <option value="Health">Health</option>
@@ -85,7 +85,7 @@ export default function NewGoalPage() {
             className="w-full border px-3 py-2 rounded"
             placeholder="Enter a short description..."
             value={description}
-            onChange={(e) => setdescription(e.target.value)}
+            onChange={(e) => setDescription(e.target.value)}
           />
         </div>
 
@@ -96,7 +96,7 @@ export default function NewGoalPage() {
             className="w-full border px-3 py-2 rounded"
             placeholder="e.g. 5000"
             value={targetAmount}
-            onChange={(e) => setTaget(e.target.value)}
+            onChange={(e) => setTarget(e.target.value)}
           />
         </div>
 
