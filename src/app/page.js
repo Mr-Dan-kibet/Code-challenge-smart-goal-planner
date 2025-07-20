@@ -1,4 +1,5 @@
-import Link from "next/link"; //Importing Link component for client-side navigation in Next.js
+import Link from "next/link";
+import Dashboard from "./components/Dashboard"; // ✅ Import Dashboard
 import GoalCard from "./components/GoalCard";
 /**fetching db.json data */
 async function getGoals() {
@@ -11,10 +12,13 @@ export default async function Home() {
 
   return (
     <main className="p-6 max-w-4xl mx-auto">
-      <h1 className="text-3xl text-center font-bold mb-6">
-        {" "}
+      <h1 className="text-3xl text-purple text-center font-bold mb-6">
         Smart Goal Planner
       </h1>
+
+      {/* ✅ Dashboard section */}
+      {goals.length > 0 && <Dashboard goals={goals} />}
+
       <div className="flex justify-end mb-4">
         <Link
           href="/new"
