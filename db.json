@@ -1,0 +1,34 @@
+{
+  "goals": [
+    {
+      "id": "2",
+      "name": "Vacation in Jamaica",
+      "targetAmount": 45000,
+      "savedAmount": "41000",
+      "description": "A well earned vacation to celebrate 10 years in marriage",
+      "category": "Fun & Recreation",
+      "deadline": "2025-12-03",
+      "createdAt": "2024-11-25"
+    },
+    {
+      "id": "a57c",
+      "name": "JACKED AF",
+      "category": "Health",
+      "description": "I want to get that beach body i've always been saying and the first step is getting the right equipment, maybe a start pack which is like 20k.",
+      "targetAmount": 25000,
+      "savedAmount": 5000,
+      "deadline": "2025-12-01",
+      "createdAt": "2025-07-20T11:06:04.697Z"
+    },
+    {
+      "id": "84b6",
+      "name": "God's Work",
+      "category": "Spiritual",
+      "description": "We need t build a new local church, i want contribute atleast a millionby next year.",
+      "targetAmount": 1000000,
+      "savedAmount": 50000,
+      "deadline": "2026-07-20",
+      "createdAt": "2025-07-20T11:10:47.360Z"
+    }
+  ]
+}
