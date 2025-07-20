@@ -20,7 +20,7 @@ export default function EditGoalForm({ goal }) {
 
   // Handle form submission
   async function handleSubmit(e) {
-    e.preventdefault();
+    e.preventDefault();
 
     await fetch(`http://localhost:3001/goals/${goal.id}`, {
       method: "PATCH",
@@ -58,7 +58,7 @@ export default function EditGoalForm({ goal }) {
       <input
         name="savedAmount"
         value={formData.savedAmount}
-        onChange={handlechange}
+        onChange={handleChange}
         type="number"
         placeholder="Saved Amount"
         className="w-full border rounded p-2"
@@ -66,7 +66,7 @@ export default function EditGoalForm({ goal }) {
 
       <select
         name="category"
-        value={fomData.category}
+        value={formData.category}
         onChange={handleChange}
         className="w-full border rounded p-2"
         required>
