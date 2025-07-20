@@ -1,16 +1,6 @@
 {
   "goals": [
     {
-      "id": "2",
-      "name": "Vacation in Jamaica",
-      "targetAmount": 45000,
-      "savedAmount": "41000",
-      "description": "A well earned vacation to celebrate 10 years in marriage",
-      "category": "Fun & Recreation",
-      "deadline": "2025-12-03",
-      "createdAt": "2024-11-25"
-    },
-    {
       "id": "a57c",
       "name": "JACKED AF",
       "category": "Health",
@@ -41,14 +31,24 @@
       "createdAt": "2025-07-20T17:10:31.113Z"
     },
     {
-      "id": "6e5e",
-      "name": "The good Life - Travel to japan",
-      "category": "Personal Development",
-      "description": "I've been doing meditation for 8 months now and i think i should meet some Gurus. I ear Asia is their home",
-      "targetAmount": 200000,
-      "savedAmount": 78000,
-      "deadline": "2026-07-01",
-      "createdAt": "2025-07-20T17:40:19.515Z"
+      "id": "5c6d",
+      "name": "CHRISTMAS DINNER!!!",
+      "category": "Social Life",
+      "description": "We will be hosting the extended family for christmas this year, and it ain't free",
+      "targetAmount": 25000,
+      "savedAmount": 7250,
+      "deadline": "2025-12-20",
+      "createdAt": "2025-07-20T17:48:28.211Z"
+    },
+    {
+      "id": "b307",
+      "name": "JAMAICA BABY!!!",
+      "category": "Travel & Leisure",
+      "description": "This is the year we finally breathe while we celebrate 15 years in marriage",
+      "targetAmount": 120000,
+      "savedAmount": 80000,
+      "deadline": "2025-10-10",
+      "createdAt": "2025-07-20T17:50:59.689Z"
     }
   ]
 }
