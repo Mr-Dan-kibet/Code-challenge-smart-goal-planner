@@ -7,7 +7,7 @@ async function getGoals() {
 }
 // Main page component that fetches and displays goals
 export default async function Home() {
-  const goals = await getGoal();
+  const goals = await getGoals();
 
   return (
     <main className="p-6 max-w-4xl mx-auto">
@@ -28,7 +28,7 @@ export default async function Home() {
       ) : (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {goals.map((goal) => (
-            <Goalcard key={goalid} goal={goal} />
+            <GoalCard key={goal.id} goal={goal} />
           ))}
         </div>
       )}
