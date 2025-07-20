@@ -32,7 +32,7 @@ export default async function Home() {
       {goals.length === 0 ? ( //if there are no goals display add a new goal
         <div className="text-center text-gray-500 mt-10">
           <p className="text-lg font-medium">No goals added yet.</p>
-          <p className="text-sm">Click "Add New Goal" to get started!</p>
+          <p className="text-sm">Click Add A Goal to get started!</p>
         </div>
       ) : (
         <div className="grid grid-cols-1 md:grid-cols-2 text-black lg:grid-cols-3 gap-4">
