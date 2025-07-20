@@ -11,7 +11,10 @@ export default async function Home() {
 
   return (
     <main className="p-6 max-w-4xl mx-auto">
-      <h1 className="text-3xl font-bold mb-6"> Smart Goal Planner</h1>
+      <h1 className="text-3xl text-center font-bold mb-6">
+        {" "}
+        Smart Goal Planner
+      </h1>
       <div className="flex justify-end mb-4">
         <Link
           href="/new"
@@ -26,7 +29,7 @@ export default async function Home() {
           <p className="text-sm">Click "Add New Goal" to get started!</p>
         </div>
       ) : (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 text-black lg:grid-cols-3 gap-4">
           {goals.map((goal) => (
             <GoalCard key={goal.id} goal={goal} />
           ))}

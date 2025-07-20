@@ -35,7 +35,7 @@ export default function EditGoalForm({ goal }) {
   return (
     <form
       onSubmit={handleSubmit}
-      className="space-y-4 p-6 bg-white shadow-md rounded-xl">
+      className="space-y-4 p-6 bg-white text-black shadow-md rounded-xl">
       <h2 className="text-xl font-bold">Edit Goal</h2>
 
       <input

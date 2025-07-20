@@ -39,7 +39,7 @@ export default function NewGoalPage() {
 
   return (
     /**how the form will be displayed in /new route form */
-    <main className="max-w-xl mx-auto mt-10 p-6 bg-white shadow-md rounded">
+    <main className="max-w-xl text-black mx-auto mt-10 p-6 bg-white shadow-md rounded">
       <h1 className="text-2xl font-bold mb-4">Add New Goal</h1>
       <form onSubmit={handleSubmit} className="space-y-4">
         <div>
