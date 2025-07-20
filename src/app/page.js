@@ -3,7 +3,9 @@ import Dashboard from "./components/Dashboard"; // ✅ Import Dashboard
 import GoalCard from "./components/GoalCard";
 /**fetching db.json data */
 async function getGoals() {
-  const res = await fetch("http://localhost:3001/goals", { cache: "no-store" });
+  const res = await fetch("https://smart-goal-jsonserver.onrender.com/goals", {
+    cache: "no-store",
+  });
   return res.json();
 }
 // Main page component that fetches and displays goals

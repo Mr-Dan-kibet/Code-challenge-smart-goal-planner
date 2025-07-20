@@ -1,7 +1,9 @@
 import EditGoalForm from "../../components/EditGoalForm";
 
 export default async function EditPage({ params }) {
-  const res = await fetch(`http://localhost:3001/goals/${params.id}`);
+  const res = await fetch(
+    `https://smart-goal-jsonserver.onrender.com/goals/${params.id}`
+  );
   const goal = await res.json();
 
   // Rendering the EditGoalForm component and passing the fetched goal as a prop

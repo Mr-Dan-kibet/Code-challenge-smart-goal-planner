@@ -26,11 +26,14 @@ export default function NewGoalPage() {
       createdAt: new Date().toISOString(),
     };
     /**sending data to db.json */
-    const res = await fetch("http://localhost:3001/goals", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(newGoal),
-    });
+    const res = await fetch(
+      "https://smart-goal-jsonserver.onrender.com/goals",
+      {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(newGoal),
+      }
+    );
 
     if (res.ok) {
       router.push("/"); // Go back home

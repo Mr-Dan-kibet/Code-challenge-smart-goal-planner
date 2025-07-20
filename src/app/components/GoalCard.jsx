@@ -19,7 +19,7 @@ const GoalCard = ({ goal }) => {
     );
     if (!confirmDelete) return;
 
-    await fetch(`http://localhost:3001/goals/${goal.id}`, {
+    await fetch(`https://smart-goal-jsonserver.onrender.com/goals/${goal.id}`, {
       method: "DELETE",
     });
 
