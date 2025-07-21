@@ -22,8 +22,7 @@ A savings goal management dashboard built with **Next.js**. This application all
 
 - [Next.js](https://nextjs.org/) – React framework with routing and SSR/CSR
 - [Render.com](https://smart-goal-jsonserver.onrender.com) – Api deployment
-- [Tailwind CSS](https://tailwindcss.com/)  – Utility-first styling
-- [Vercel](https://tailwindcss.com/)  – Frontend deployment
+- [Vercel](https://code-challenge-smart-goal-planner.vercel.app/)  – Frontend deployment
 - JavaScript (ES6+)
 
 
@@ -36,7 +35,6 @@ App: (https://code-challenge-smart-goal-planner.vercel.app/)
 ## Folder Structure
 ```
 smart-goal-planner/
-├── db.json                  # json-server data
 ├── public/
 │   └── favicon.ico
 ├── src/
@@ -53,6 +51,7 @@ smart-goal-planner/
 │       ├── layout.js
 │       ├── page.js          # Main homepage
 │       └── globals.css      # Global styles
+├── db.json                 # json-server data 
 ├── .gitignore
 ├── eslint.config.mjs
 ├── jsconfig.json
@@ -64,5 +63,6 @@ smart-goal-planner/
 ```
 
 ## LICENSE
+MIT License
 ## Author
-
+Copyright (c) 2025 Mr-Dan-kibet
