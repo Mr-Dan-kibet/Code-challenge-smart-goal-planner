@@ -18,48 +18,51 @@ A savings goal management dashboard built with **Next.js**. This application all
   - Warnings for goals near deadline
   - “Overdue” label if deadline is missed without completion
 
-## Tech Stack
+##  Tech Stack
 
 - [Next.js](https://nextjs.org/) – React framework with routing and SSR/CSR
-- [json-server](https://github.com/typicode/json-server) – Local REST API for data persistence
-- [Tailwind CSS](https://tailwindcss.com/) *(optional)* – Utility-first styling
+- [Render.com](https://smart-goal-jsonserver.onrender.com) – Api deployment
+- [Tailwind CSS](https://tailwindcss.com/)  – Utility-first styling
+- [Vercel](https://tailwindcss.com/)  – Frontend deployment
 - JavaScript (ES6+)
 
-##  Setup Instructions
 
-### 1. Clone the project
-```
-git clone https://github.com/your-username/smart-goal-planner.git
-cd smart-goal-planner
-```
-### 2. Install dependencies
-```
-npm install
-```
-### 3. Set up json-server
-```
-npx json-server --watch db.json --port 3000
-```
-### 4. Run the Next.js app
-```
-npm run dev
-```
-### 5. Open in browser
+###  Open in browser
 
-App: http://localhost:3000 — (Next.js app, will conflict with json-server port — see note below)
+App: (https://code-challenge-smart-goal-planner.vercel.app/) 
 
-JSON Server API: http://localhost:3001/goals
 
-Port Conflict?
-If both json-server and Next.js default to port 3000:
-
-Change the json-server port to 3001 like this:
-```
-npx json-server --watch db.json --port 3001
-```
-Then in your app, use http://localhost:3001/goals as your API base URL.
 
 ## Folder Structure
+```
+smart-goal-planner/
+├── db.json                  # json-server data
+├── public/
+│   └── favicon.ico
+├── src/
+│   └── app/
+│       ├── components/
+│       │   ├── Dashboard.jsx
+│       │   ├── EditGoalForm.jsx
+│       │   └── GoalCard.jsx
+│       ├── edit/
+│       │   └── [id]/
+│       │       └── page.jsx
+│       ├── new/
+│       │   └── page.jsx
+│       ├── layout.js
+│       ├── page.js          # Main homepage
+│       └── globals.css      # Global styles
+├── .gitignore
+├── eslint.config.mjs
+├── jsconfig.json
+├── next.config.mjs
+├── package.json
+├── package-lock.json
+├── postcss.config.mjs
+└── README.md
+```
 
-## License
+## LICENSE
+## Author
 
