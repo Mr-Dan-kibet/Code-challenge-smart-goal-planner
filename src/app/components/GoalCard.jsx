@@ -49,7 +49,7 @@ const GoalCard = ({ goal }) => {
           Deadline: <strong>{deadline}</strong>
         </p>
         <p className="text-sm">
-          Remaining: <strong>${remaining}</strong>
+          Remaining: <strong>ksh.{remaining}</strong>
         </p>
         <p className="text-sm break-words line-clamp-4">
           Description: <strong>{description}</strong>
