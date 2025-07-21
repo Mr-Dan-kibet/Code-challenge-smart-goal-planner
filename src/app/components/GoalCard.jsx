@@ -43,7 +43,7 @@ const GoalCard = ({ goal }) => {
             style={{ width: `${progress}%` }}></div>
         </div>
         <p className="text-sm mt-1">
-          Saved: <strong>${savedAmount}</strong> / ${targetAmount}
+          Saved: <strong>ksh.{savedAmount}</strong> / ksh.{targetAmount}
         </p>
         <p className="text-sm">
           Deadline: <strong>{deadline}</strong>
